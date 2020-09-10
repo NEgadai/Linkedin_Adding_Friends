@@ -4,7 +4,7 @@ This script allows you to add friends automatically on LinkedIn.
 
 Instructions:
 
-pip install selenium
+`pip install selenium`
 
 In config.py file:
 Add your LinkedIn username.
