@@ -49,9 +49,9 @@ if __name__ == '__main__':
             try:
                 actions.move_to_element(btn).perform()  # Move to Connect button
                 btn.click()
-                print('Sent a request to connect!')
                 time.sleep(1)
                 driver.find_element_by_xpath("//span[text()='Done']").click()
+                print('Sent a request to connect!')
             except Exception as e:
                 print("Error 'Click Connect'.")
 
