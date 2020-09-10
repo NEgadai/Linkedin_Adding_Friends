@@ -6,7 +6,7 @@ Instructions:
 
 `pip install selenium`
 
-In config.py file:
+In `config.py` file:
 
 Add your LinkedIn username.
 
